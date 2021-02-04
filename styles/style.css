@@ -1,0 +1,47 @@
+*{          
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html,
+body{
+    margin: 0%;
+}
+
+h1,
+h3,
+h2{
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+p{
+    margin: 2%;
+}
+
+nav{
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 0%;
+}
+
+nav a{
+    color: whitesmoke;
+}
+
+nav li:hover{
+    background-color: gray;
+}
+
+ul{
+    display: flex;    
+    justify-content: space-around;
+    list-style: none;
+    
+}
+li{
+    margin: 1%;
+    padding: 5px;
+}
