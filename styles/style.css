@@ -35,13 +35,26 @@ nav li:hover{
     background-color: gray;
 }
 
+nav ul a{
+    padding: 1.8% 40% 1.8% 40%;    
+}
+
 ul{
+    padding: 0% 0% 1% 0%;
     display: flex;    
     justify-content: space-around;
     list-style: none;
     
 }
 li{
-    margin: 1%;
+    text-align: center;
+    margin: 0%;
     padding: 5px;
+    width: 30%;    
+    border-radius: 5px;
+}
+
+.icon{
+    width: 1%;
+    height: 1%;
 }
